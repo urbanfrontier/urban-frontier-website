@@ -3,126 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Urban Frontier Home Exteriors - Arizona's trusted solar panel cleaning and window washing service. Get a free quote today!">
     <title>Urban Frontier Home Exteriors</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
+            color: #333;
         }
         header {
-            background: #333;
+            background-color: #2c2c2c;
             color: #fff;
-            padding: 10px 20px;
+            padding: 1em 0;
             text-align: center;
         }
         header h1 {
+            font-size: 2.5em;
             margin: 0;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        nav a:hover {
-            color: #ffab00;
+        header p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
         }
         .hero {
-            background: url('solar_panels.jpg') no-repeat center center/cover;
-            height: 400px;
+            position: relative;
+            background-image: url('https://source.unsplash.com/1600x900/?solar-panel,arizona');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
             color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .hero h2 {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 0px 4px 6px rgba(0,0,0,0.7);
         }
-        section {
-            padding: 20px;
-            text-align: center;
+        .hero button {
+            margin-top: 1em;
+            padding: 1em 2em;
+            font-size: 1em;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
         }
-        .services {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
+        .hero button:hover {
+            background-color: #45a049;
+        }
+        .content {
+            padding: 2em;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #fff;
+        }
+        .content h3 {
+            color: #2c2c2c;
         }
         .service {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            width: 300px;
+            display: flex;
+            gap: 1em;
+            margin: 2em 0;
         }
-        .service h3 {
-            color: #333;
+        .service img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        .service p {
+            flex: 1;
+            line-height: 1.6;
         }
         footer {
-            background: #333;
+            background-color: #2c2c2c;
             color: #fff;
             text-align: center;
-            padding: 10px 20px;
-            margin-top: 20px;
+            padding: 1em 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Urban Frontier Home Exteriors</h1>
-        <p>Your Partner in Solar Panel Cleaning and Home Maintenance</p>
+        <p>Professional Solar Panel and Window Cleaning Services in Arizona</p>
     </header>
 
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#about">About Us</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <section class="hero">
+        <h2>Power Up with Clean Solar Panels</h2>
+        <p>Save money and maximize efficiency with our expert cleaning services.</p>
+        <button>Get a Free Quote</button>
+    </section>
 
-    <div class="hero">
-        <h2>Shining Brighter Homes One Panel at a Time</h2>
-    </div>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Solar Panel Cleaning</h3>
-                <p>Boost efficiency with spotless solar panels.</p>
-            </div>
-            <div class="service">
-                <h3>Window Cleaning</h3>
-                <p>Crystal-clear views for your home or business.</p>
-            </div>
-            <div class="service">
-                <h3>Roof Maintenance</h3>
-                <p>Ensure your roof is clean and ready for any weather.</p>
-            </div>
+    <section class="content">
+        <h3>Why Choose Urban Frontier?</h3>
+        <div class="service">
+            <img src="https://source.unsplash.com/800x400/?cleaning,solar-panels" alt="Solar Panel Cleaning">
+            <p>
+                At Urban Frontier Home Exteriors, we provide top-notch solar panel and window cleaning services
+                designed to keep your home efficient and beautiful. Our team uses eco-friendly methods to ensure your
+                solar panels shine under the Arizona sun. Let us help you save money while enhancing your home's curb appeal!
+            </p>
         </div>
-    </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Urban Frontier Home Exteriors, we specialize in keeping your home clean, efficient, and beautiful. From solar panel cleaning to window services, our mission is to provide top-quality care and customer satisfaction.</p>
-    </section>
+        <h3>Customer Reviews</h3>
+        <ul>
+            <li>"Urban Frontier was amazing! My solar panels look brand new." - Sarah, Phoenix</li>
+            <li>"Professional, fast, and affordable. Highly recommend!" - James, Scottsdale</li>
+            <li>"The best in the business. My home has never looked better." - Kelly, Tempe</li>
+        </ul>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@urbanfrontierexteriors.com</p>
-        <p>Phone: (555) 123-4567</p>
+        <h3>Arizona's Trusted Cleaning Experts</h3>
+        <p>
+            Serving the heart of Arizona, Urban Frontier Home Exteriors specializes in both residential and commercial services. 
+            Whether you're in Phoenix, Scottsdale, or Tempe, we've got you covered.
+        </p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Urban Frontier Home Exteriors. All Rights Reserved.</p>
+        <p>&copy; 2024 Urban Frontier Home Exteriors. All rights reserved.</p>
     </footer>
 </body>
 </html>
